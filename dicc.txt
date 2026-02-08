@@ -1,0 +1,7 @@
+index.phps
+robot.txt
+www.zip
+.git/index.php
+.svn
+index.php.swp
+backup.sql
