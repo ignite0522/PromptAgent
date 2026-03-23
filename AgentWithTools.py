@@ -108,7 +108,7 @@ graph = graph_builder.compile()
 # 5.调用图架构应用
 print("开始执行...")
 state = graph.invoke(
-    {"messages": [("human", "成都信息工程大学 ，古域炜是谁？")]},
+    {"messages": [("human", "成都今天天气如何？")]},
     config={"recursion_limit": 25},
 )
 
