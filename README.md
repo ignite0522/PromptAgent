@@ -243,7 +243,7 @@ class State(TypedDict):
 tools = [google_serper]
 llm = ChatOpenAI(
     model="deepseek-chat",
-    openai_api_key="sk-4c60e118b9874e4bb945567863620949",
+    openai_api_key="XXXX",
     openai_api_base="https://api.deepseek.com",
     request_timeout=120,  # 超时设置，避免无限等待
 )
